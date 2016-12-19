@@ -109,9 +109,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        style="@style/Base.Widget.AppCompat.ProgressBar"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:progressTint="@color/theme_accent"
-        app:backgroundTint="@color/theme_accent"
+        android:indeterminateTint="@color/theme_accent"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_in"
         />
 
     <android.support.design.widget.FloatingActionButton
