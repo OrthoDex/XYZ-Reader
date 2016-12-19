@@ -22,4 +22,5 @@
     <color name="theme_accent">#448AFF</color>
     <color name="text_color">#212121</color>
     <color name="ltgray">#F5F5F5</color>
+    <color name="title_card_color">#fff</color>
 </resources>
